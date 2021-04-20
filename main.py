@@ -33,12 +33,6 @@ for char in range(1, nr_numbers + 1):
 
     import math
 
-
-def paint_calc(height, width, cover):
-    total_area = height * width
-    number_of_cans = math.ceil(total_area / cover)
-    print(f" i will need {number_of_cans} cans of paint")
-
 from replit import clear
 from art import logo
 
